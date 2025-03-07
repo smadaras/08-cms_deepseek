@@ -1,0 +1,7 @@
+name: cms-python
+services:
+    my-python-app:
+        ports:
+            - 8501:8501
+        container_name: cms-python
+        image: cms-python
